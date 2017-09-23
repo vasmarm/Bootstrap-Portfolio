@@ -1,246 +1,146 @@
-
-body {
+body{
 	background-image: url("../../assets/images/background.jpg");
 	margin: 0 auto;
 	overflow-y: scroll;
 	overflow-x: hidden;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
 }
 p {
-	color: #777777;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 15px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important;.
 }
-h2 {
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	color: #4aaaa5;
-	text-align: left;
-	margin-left: 30px;
+
+
+
+#navbar{
+	float:right;
+	margin: 0 320px 0 0;
+	
 }
-hr { 
-	margin: 30px 30px;
-		border-style: solid;
-	   	border-width: 1px;
-		border-color: grey;
+#navhead{
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 0 0 320px;
+	background-color: #4aaaa5;
+	font-size: 4;
 }
-/*-------------------------------------*/	
-.container{
-	width: 960px;
-	margin: 0 auto;
-}
-/*-------------------------------------*/	
-/*-------------------------------------*/
-header {
+
+head{
 	background: #ffffff;
 	width: 100%;
 	margin: 0 auto;
 	border-bottom: solid;
 	border-bottom-color: #cccccc;
 	border-bottom-width: 2px;
-}
-.header-h1 {
-		background: #4aaaa5;
-		color: #ffffff;
-		font-family: 'Georgia', Times, 'Times New Roman', serif;
-		letter-spacing: 2px;
-		display: inline-block;
-		margin: 0 auto;
-		padding: 20px;
-}
-.nav {
-		display: inline-block;
-		text-decoration: none;
-		margin: 0 0 0 320px;
-}
-.nav-ul-li {
-			list-style: none;
-			display: inline-block;
-			cursor: pointer;
-			padding: 5px 20px;
-			margin: 5px 5px;
-			border: solid;
-			border-width: 2px;
-			border-radius: 100px;
-			border-color: #4aaaa5;
 
 }
-		nav ul li:hover {
-			background: rgba(74, 170, 165, .30);
+
+
+#about img {
+		float: left;
+		width: 350px;
+		margin: 20px 40px 20px 0;
+		padding: 0 0 0 15px;
 }
-			nav ul li a {
-				text-decoration: none;
-				color: grey;
-				font-family: arial;
-				font-size: 14px;
-}
+
+
 /*-------------------------------------*/	
-.mid-container {
+.container{
 	width: 960px;
 	margin: 0 auto;
-	padding: 50px 0 150px 0;
-}
-/*-------------------------------------*/	
-.section, .aside {
-		display: inline-block;
-		vertical-align: top;
-		background: #ffffff;
-		margin: 0 auto;
-		border: solid;
-		border-width: 2px;
-		border-color: #dddddd;
-}
-/*-------------------------------------*/	
-.about, .portfolio, .contact {
-	width: 650px;
-	padding: 0 0 30px 0;
-	margin: 0 20px 50px 0;
 }
 /*-------------------------------------*/
-	.about p {
-		margin: 0 30px;
+
+/*________CONNECT side panel _______*/
+#connect {
+	text-align: center;
+	margin: 0 0 200px 0;
 }
-	.about img {
-		float: left;
-		width: 300px;
-		margin: 0 20px 10px 30px;
+	#connect h3, #portfolio h3{
+		text-align: left;
 }
-/*-------------------------------------*/
-.portfolio {
+	#connect img {
+		width: 70px;
+		margin: 20px 10px;
+}
+
+
+/*________ Footer _______*/
+#footer {
+	clear: both;	
+	background: #4aaaa5;
+	width: 100%;
+	text-align: center;
+	padding: 20px 0 10px 0;
+	border-top: 8px solid #4aaaa5;
+	font: 10px arial;
+	color: #D3D3D3;
+
+}
+
+
+/*________ PORTFOLIO main panel _______*/
+#portfolio {
 	text-align: center;
 }
-	.portfolio img {
-		vertical-align: top;
-		width: 280px;
+	#portfolio img {
+		width: 290px;
+		margin: 0 20px 70px 20px;
 }
 .portfolio-media {
 	display: inline-block;
-	padding: 2%;
+	padding: 0 5px 0 0;
 }
 .portfolio-media p {
-	color: white;
-	font-size: 15px;
+	color: white;	
+	font-size: 20px;
 	letter-spacing: 2px;
 }
 	.portfolio-text {
 		background: rgba(74, 170, 165, .75);
 		position: relative;
-		top: 180px;
-		padding: .5px 0 .5px 0;
-		margin: -50px 0 0 0;
-	}
-/*-------------------------------------*/
-form {
-	margin: 0 0 0 30px;
+		top: 200px;
+		padding: 10px 0 2px 0;
+		margin: -50px 20px 0 20px;
 }
+
+
+/*_______ CONTACT FORM main panel _______*/
 label, input {
-	font-family: arial;
-	font-size: 20px;
+	font: 20px arial;
 	color: grey;
+	padding: 0 0 0 15px;
 }
 	input[name="name"], [name="email"], [name="comments"]{
 		width: 90%;
 		margin: 10px 0 40px 0;
-		padding: 5px 10px;
+		padding: 5px 15px;
 }
 	input[type="submit"] {
-		border: solid;
-		border-color: #4aaaa5;
-		border-width: 1.5px;
+		border: 1.5 px solid #4aaaa5;
 		padding: 4px 20px;
 		background: rgba(74, 170, 165, .30);
 		cursor: pointer;
 }
-/*-------------------------------------*/	
-.aside {
-	text-align: center;
-	min-width: 250px;
-	width: 270px;
-	padding: 0 0 40px 0;
-}
-.aside-img {
-		width: 50px;
-		margin: 25px 10px 0 10px;
-}
-.aside-hr {
-		margin: 0 30px 0 30px;
-		margin-bottom: 10px;
-}
-/*-------------------------------------*/	
-footer {
-	clear: both;	
-	background: #4aaaa5;
-	width: 100%;
-	text-align: center;
-	padding: 25px;
-	border-top: solid;
-	border-top-width: 8px;
-	border-color: #4aaaa5;
-	font-family: arial;
-	font-size: 10px;
-	color: #D3D3D3;
-	position: fixed;
-	bottom: 0;
-}
-
-
-
-
-
 
 /************* MEDIA QUERIES ********************/
 
-/*--------------- MONITOR (FOOTER: Green)----------------------*/
-@media screen and (max-width: 980px) {
-	
+/*________ HAMBURGER _______*/
+ @media only screen and (max-width: 768px) {
+    .navbar-default .navbar-collapse {
+        border-color: #4aaaa5;
 }
-
-/*--------------- TABLET (FOOTER: Grey)----------------------*/
-
-@media screen and (max-width: 768px) {
-	footer {
-		background-color: grey;
-		font-size: 12px;
-		width:100%;
-	}
-	.container{
-		width:100%;
-	}
-	.mid-container, .about, .portfolio, .contact, aside {
-        width: 96%;
-	}
+	.navbar ul li { 
+		border-radius: 0;
+		width: 96%;
+		margin: 1px 0;
 }
-
-/*--------------- MOBILE (FOOTER: White)--------------------*/
-
-@media screen and (max-width: 640px) {
-	footer {
-		background-color: white;
-    	font-size: 12px;
-    	width:100%;
-	}
-	.container{
-		width:100%;
-	}
-	aside{
-		width: 100%;
-	}
-	.mid-container, .about, .portfolio, .contact, aside {
-        width: 96%;
-	}
-	nav{
-		display: normal;
-	}
-	nav ul li {
-		display flex;
-
-	}
-}
-
-
-
-
-
-
-
-
-
-
+	.navbar ul li:hover {
+			border-radius: 0;
+			background: grey !important;
